@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+        font-style: bold;
+        box-sizing: border-box;
+}
+body{ 
+        margin-top: -20px;
+        margin-right:50px;
+        margin-left:70px;
+        margin: center;
+        display: flex;
+        justify-content: center; 
+        align-content: center;
+        min-height: 100vh;
+        color: #FFFDE4;
+}
+.logo img{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -30px;
+    margin-bottom:20px;
+}
+.main{
+    margin: 20px;
+}
+
+
+.Card{
+    display: inline-block;
+    margin: 80px;
+    margin:center;
+    width: 20%; 
+    background-color: #fffdd9;
+    text-align: center; 
+    border-radius: 12px;
+    box-shadow: 2px 2px 10px black;
+   
+}
+.image img{
+   
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    width: 100%;
+    
+}
+.description{
+    color: black;
+}
+button{
+    width: 20%;
+    height: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 16px;
+    box-shadow: inset 0 0 0 0 red;
+    transition: ease-out 0.4s;
+    font-size: 13px;
+    font-weight: bold;
+    outline: none;
+    display: inline-block;
+    transition: ease out 0.4s;
+    margin-bottom: 30px;
+    text-decoration-color:white;
+    text-decoration: none;
+}
+button:hover{
+    box-shadow: inset 300px 0 0 0 red;
+    color: white;
+    cursor: pointer;
+}
+a{
+    color:inherit;
+}

@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Nunito', sans-serif;
+}
+body{
+    background-color: rgba(175,219,230,255);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bag img{
+    float: right;
+}
+.Container{
+    color:black;  
+}
+h1, p{
+    margin-left:30px;
+}
+h1{
+   font-weight:bold;
+}
+p{
+    font-size:22px; 
+    font-weight:bold;
+    font-style:italic;
+}
+.gradient-underline {
+    padding-bottom: 8px;
+    position: relative;
+    text-decoration: none;
+}
+
+.gradient-underline::after {
+    background: red;
+    background: linear-gradient(to right, transparent 0%,
+     red 50%, transparent 100%);  
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 100%;
+ }

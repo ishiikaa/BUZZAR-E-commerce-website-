@@ -1,0 +1,90 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgba(175,219,230,255);
+    background-repeat: no-repeat;
+}
+.girl{
+    float:right;
+    width: 50%;
+    height:auto;
+}
+.girllll{
+    float:left;
+    width: 20%;
+    height:auto;
+    margin-left:10px;
+    
+}
+
+.form_box {
+width: 350px;
+box-shadow: 0 0 10px 0 black ;
+margin: 100px auto;
+background-color: white;
+padding: 20px 10px;
+}
+input{
+    width: 50%;
+    height:40px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid #999;
+    padding: 20px;
+
+}
+.btn-1{
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.input_group{
+margin: 20px auto;
+position: relative;
+
+
+}
+label{
+    position: absolute;
+    top:-7px;
+    left:20px;
+    background-color: white;
+    padding: 0 5px;
+}
+h2{
+    text-align: center;
+    left:20px;
+}
+.gradient-underline {
+    padding-bottom: 1px;
+    position: relative;
+    text-decoration: none;
+}
+
+.gradient-underline::after {
+    background: red;
+    background: linear-gradient(to right, 
+    transparent 0%,
+     red 50%, transparent 100%);  
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 100%;
+ }
+ a{
+     color:inherit;
+
+ }

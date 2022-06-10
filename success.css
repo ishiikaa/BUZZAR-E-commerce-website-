@@ -1,0 +1,17 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align:center;
+    margin: 100px auto;
+}
